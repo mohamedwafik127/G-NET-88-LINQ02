@@ -44,5 +44,14 @@ public class Program
         //    Console.WriteLine(item);
         //}
         #endregion
+
+        #region Question_04
+
+        //4. Check if ALL products in the "Seafood" category are in stock
+
+        //var Result = ProductList.Where(p => p.Category == "Seafood").All(s => s.UnitsInStock > 0) ? "ALL products in the Seafood are in stock" : "There is no Seafood in stock";
+
+        //Console.WriteLine(Result);
+        #endregion
     }
 }
