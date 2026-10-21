@@ -258,5 +258,31 @@ public class Program
         //}
         #endregion
 
+
+        #region Question_20
+
+        //20. Concatenate the first 3 product names with the first 3 customer company names into a single sequence.
+
+        //var Result = ProductList.Select(p => p.ProductName).Take(3)
+        //             .Concat(CustomerList.Select(c => c.CustomerName).Take(3));
+
+        //foreach (var item in Result)
+        //{
+        //    Console.WriteLine(item);
+        //}
+        #endregion
+
+        #region Question_21
+
+        //21. Pair each product with a customer (by position) and produce a string "ProductName sold to CompanyName"
+
+        //var Result = ProductList.Zip(CustomerList, (p, c) => $"{p.ProductName} sold to {c.CustomerName}");
+
+        //foreach (var item in Result)
+        //{
+        //    Console.WriteLine(item);
+        //    Console.WriteLine();
+        //}
+        #endregion
     }
 }
