@@ -141,5 +141,13 @@ public class Program
         //int Result = ProductList.Sum(p => p.UnitsInStock);
         //Console.WriteLine($"Total number of units in stock across all products = {Result}");
         #endregion
+
+        #region Question_11
+
+        //11. Find the CHEAPEST and MOST EXPENSIVE product prices
+
+        //var Result = ProductList.OrderBy(p => p.UnitPrice).Select(p => p.UnitPrice);
+        //Console.WriteLine($"the MOST EXPENSIVE Price is {Result.Last()}$ and the CHEAPEST Price is {Result.First()}$");
+        #endregion
     }
 }
