@@ -110,5 +110,28 @@ public class Program
         //    }
         //}
         #endregion
+
+        #region Question_09
+
+        //9. Using QUERY SYNTAX, group customers by Country, and for each group select { Country, Count, TotalOrderValue }
+
+        //var Result = from c in CustomerList
+        //             group c by c.Country into g
+        //             select new
+        //             {
+        //                 Country = g.Key,
+        //                 Count = g.Count(),
+        //                 TotalOrderValue = g.Sum(c => c.Orders.Sum(o => o.Total))
+        //             };
+
+        //foreach (var item in Result)
+        //{
+        //    Console.WriteLine($"Country : {item.Country}");
+        //    Console.WriteLine($"Count : {item.Count}");
+        //    Console.WriteLine($"TotalOrderValue : {item.TotalOrderValue:C2}");
+
+        //    Console.WriteLine("----------------------------------------");
+        //}
+        #endregion
     }
 }
