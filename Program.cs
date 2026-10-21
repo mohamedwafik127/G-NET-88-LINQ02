@@ -246,6 +246,17 @@ public class Program
         //}
         #endregion
 
+        #region Question_19
+
+        //19. Generate even numbers between 1 and 30.
+
+        //var Result = Range(1, 30).Where(x => x % 2 == 0);
+
+        //foreach (var item in Result)
+        //{
+        //    Console.WriteLine(item);
+        //}
+        #endregion
 
     }
 }
