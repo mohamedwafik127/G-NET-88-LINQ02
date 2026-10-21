@@ -225,5 +225,15 @@ public class Program
         //Console.WriteLine(Result);
         #endregion
 
+        #region Question_17
+
+        //17. Try to get the first product with a price > $500. it returns null instead of throwing.
+
+        //var Result = ProductList.OrderBy(p => p.UnitPrice).FirstOrDefault(s => s.UnitPrice > 500);
+
+        //Console.WriteLine(Result);
+        #endregion
+
+
     }
 }
