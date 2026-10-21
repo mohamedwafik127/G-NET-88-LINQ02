@@ -207,5 +207,14 @@ public class Program
         //}
         #endregion
 
+        #region Question_15
+
+        //15. Build a Dictionary<int, Product> keyed by ProductID. Then retrieve and print the product with ID = 18.
+
+        //Dictionary<int, Product> Result = ProductList.ToDictionary(p => p.ProductID);
+
+        //Console.WriteLine(Result[18]);
+        #endregion
+
     }
 }
