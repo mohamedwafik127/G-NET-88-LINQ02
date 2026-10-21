@@ -216,5 +216,14 @@ public class Program
         //Console.WriteLine(Result[18]);
         #endregion
 
+        #region Question_16
+
+        //16. Get the first product whose price is greater than $50.
+
+        //var Result = ProductList.OrderBy(p => p.UnitPrice).First(s => s.UnitPrice > 50);
+
+        //Console.WriteLine(Result);
+        #endregion
+
     }
 }
