@@ -95,5 +95,20 @@ public class Program
         //    Console.WriteLine("----------------------------------------");
         //}
         #endregion
+
+        #region Question_08
+
+        //8.Find all categories that have MORE THAN 3 products
+
+        //var Result = ProductList.GroupBy(p => p.Category);
+
+        //foreach (var group in Result)
+        //{
+        //    if (group.Count() > 3)
+        //    {
+        //        Console.WriteLine($"{group.Key} has more than 3");
+        //    }
+        //}
+        #endregion
     }
 }
