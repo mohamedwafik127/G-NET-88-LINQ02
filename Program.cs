@@ -133,5 +133,13 @@ public class Program
         //    Console.WriteLine("----------------------------------------");
         //}
         #endregion
+
+        #region Question_10
+
+        //10. Calculate the total number of units in stock across all products
+
+        //int Result = ProductList.Sum(p => p.UnitsInStock);
+        //Console.WriteLine($"Total number of units in stock across all products = {Result}");
+        #endregion
     }
 }
