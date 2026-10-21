@@ -234,6 +234,18 @@ public class Program
         //Console.WriteLine(Result);
         #endregion
 
+        #region Question_18
+
+        //18. Generate a multiplication table row for 7
+
+        //var Result = Range(0, 11).Select(x => x * 7);
+
+        //foreach (var item in Result)
+        //{
+        //    Console.WriteLine(item);
+        //}
+        #endregion
+
 
     }
 }
