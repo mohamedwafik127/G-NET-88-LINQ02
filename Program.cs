@@ -63,6 +63,20 @@ public class Program
         //var Result = ids.Contains(9) ? "The list contains 9" : "There is no 9 inn the list";
 
         //Console.WriteLine(Result);
+        #endregion  
+
+        #region Question_06
+
+        //6. Group all products by Category and print each group with its product count.
+
+        //var Result = ProductList.GroupBy(p => p.Category);
+
+        //foreach (var group in Result)
+        //{
+        //    Console.WriteLine($"{group.Key} ({group.Count()} products)");
+
+        //    Console.WriteLine("----------------------------------------");
+        //}
         #endregion
     }
 }
