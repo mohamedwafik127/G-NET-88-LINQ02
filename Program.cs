@@ -53,5 +53,16 @@ public class Program
 
         //Console.WriteLine(Result);
         #endregion
+
+        #region Question_05
+
+        //5. Check if the ID list contains 9
+
+        //int[] ids = { 3, 9, 13, 18 };
+
+        //var Result = ids.Contains(9) ? "The list contains 9" : "There is no 9 inn the list";
+
+        //Console.WriteLine(Result);
+        #endregion
     }
 }
