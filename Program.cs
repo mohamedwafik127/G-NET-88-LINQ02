@@ -149,5 +149,17 @@ public class Program
         //var Result = ProductList.OrderBy(p => p.UnitPrice).Select(p => p.UnitPrice);
         //Console.WriteLine($"the MOST EXPENSIVE Price is {Result.Last()}$ and the CHEAPEST Price is {Result.First()}$");
         #endregion
+
+        #region Question_12
+
+        //12. Get a distinct list of all product categories
+
+        //var Result = ProductList.Select(p => p.Category).Distinct();
+
+        //foreach (var item in Result)
+        //{
+        //    Console.WriteLine(item);
+        //}
+        #endregion
     }
 }
