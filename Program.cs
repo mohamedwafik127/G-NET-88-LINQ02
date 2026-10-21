@@ -32,5 +32,17 @@ public class Program
         //    Console.WriteLine(item);
         //}
         #endregion
+
+        #region Question_03
+
+        //3. Take products from the list as long as Their UnitPrice is less than $25(list is ordered by price).
+
+        //var Result = ProductList.OrderBy(p => p.UnitPrice).TakeWhile(s => s.UnitPrice < 25);
+
+        //foreach (var item in Result)
+        //{
+        //    Console.WriteLine(item);
+        //}
+        #endregion
     }
 }
